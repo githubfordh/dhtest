@@ -20,7 +20,6 @@ public class MyDateConverter implements Converter<String, Date> {
 		try {
 			return sdf.parse(source);
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return null;
