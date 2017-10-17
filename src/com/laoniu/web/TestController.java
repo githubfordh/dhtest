@@ -16,7 +16,10 @@ import com.laoniu.po.UserSetForm;
 public class TestController {
 
 	/**
-	 * 基本数据类型绑定
+	 *
+	 *
+	 
+	 *基本数据类型绑定
 	 * 基本数据类型绑定，不能为空，只能输入这个基本数据类型，如果不是的话，则出现400错误
 	 */
 	@RequestMapping("baseType.do")
